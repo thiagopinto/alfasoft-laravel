@@ -3,6 +3,8 @@
         Options -MultiViews -Indexes
     </IfModule>
 
+    php_flag opcache.enable Off
+
     RewriteEngine On
 
     # Handle Authorization Header
@@ -14,7 +16,8 @@
     #RewriteCond %{REQUEST_URI} (.+)/$
     RewriteCond %{REQUEST_URI} ^(?!\/api\/)(.+)\/$
     #RewriteRule ^ %1 [L,R=301]
-    RewriteRule ^(.*)/$ /$1 [L,R=301]
+    #RewriteRule ^(.*)/$ /$1 [L,R=301]
+    RewriteRule ^(.*)/$ /$1 [L,R=307]
 
     # Send Requests To Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
