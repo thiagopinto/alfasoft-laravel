@@ -8,7 +8,7 @@
     <meta data-n-head="1" data-hid="description" name="description" content="">
     <meta data-n-head="1" name="format-detection" content="telephone=no">
     <link data-n-head="1" rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="preload" href="/_nuxt/f71fae9.js" as="script">
+    <link rel="preload" href="/_nuxt/f0b7eda.js" as="script">
     <link rel="preload" href="/_nuxt/e30fd20.js" as="script">
     <link rel="preload" href="/_nuxt/0cf0b1b.js" as="script">
     <link rel="preload" href="/_nuxt/06cf496.js" as="script">
@@ -141,7 +141,7 @@
             }
         }
     </script>
-    <script src="/_nuxt/f71fae9.js"></script>
+    <script src="/_nuxt/f0b7eda.js"></script>
     <script src="/_nuxt/e30fd20.js"></script>
     <script src="/_nuxt/0cf0b1b.js"></script>
     <script src="/_nuxt/06cf496.js"></script>
