@@ -30,7 +30,6 @@ class ContactController extends Controller
      */
     public function store(StoreContactRequest $request)
     {
-        dd($request);
         $request->validate([
             'name' => 'required|min:6',
             'email' => 'required|email',
